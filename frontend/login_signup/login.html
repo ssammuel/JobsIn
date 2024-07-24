@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem Vindo(a) ao jobsIn</title>
+    <link rel="stylesheet" href="../login_signup/estilo_log.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
-    <div class="container" id="signup">
+    <div class="container" id="signup" style="display: none;">
         <h1 class="form-title">Registrar</h1>
         <form method="post" action="">
             <div class="input-group">
@@ -36,7 +37,7 @@
             <input type="submit" class="btn" value="Cadastrar" name="sing Up">
         </form>
         <p class="or">
-            -----------or----------
+            ----------ou----------
         </p>
         <div class="icons">
             <i class="fab fa-google"></i>
@@ -69,6 +70,9 @@
             </p>
             <input type="submit" class="btn" value="Entrar" name="singIn">
         </form>
+        <p class="or">
+            ----------ou----------
+        </p>
         <div class="icons">
             <i class="fab fa-google"></i>
             <i class="fab fa-facebook"></i>
@@ -78,6 +82,9 @@
             <button id="signUpButton">Cadastrar</button>
         </div>
     </div>
+
+    <script src="/backend/login.js"></script>
+
 </body>
 
 </html>
