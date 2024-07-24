@@ -1,0 +1,21 @@
+sobre: um site onde é possível postar vagas de emprego
+e onde os candidatos conseguem criar e enviar seus curriculos.
+
+plataformas: por ser apenas um site, será necessesário o uso 
+do front-end (design) e o back-end (servidor que guarda 
+os curriculos, mensagens, contas e imagens).
+
+ferramentas fundamentais: HTML para a estrutura, CSS +
+algum framework, javascript + alguma ferramenta de banco de
+dados.
+
+funcionalidade:
+1. Login/Cadastro de conta pelo google, email, ou microsoft
+2. Escolha entre candidato e contratante
+3. Ao candidato terá as opções de colocar o curriculo,
+e outros cadastros, e um painel com as vagas da área 
+selecionada.
+4.Ao contratante terá uma opção de divulgar vagas,
+ver quais candidatos estão na vaga (vendo os curriculos),
+e uma opção de enviar mensagem ao candidato.
+

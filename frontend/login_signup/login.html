@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Vindo(a) ao jobsIn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container" id="signup">
+        <h1 class="form-title">Registrar</h1>
+        <form method="post" action="">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="fName" id="fName" placeholder="First Name" required>
+                <label for="fName">Primeiro Nome</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="lName" id="lName" placeholder="Last Name" required>
+                <label for="lName">Sobrenome</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="password" required>
+                <label for="password">Senha</label>
+            </div>
+            <input type="submit" class="btn" value="Cadastrar" name="sing Up">
+        </form>
+        <p class="or">
+            -----------or----------
+        </p>
+        <div class="icons">
+            <i class="fab fa-google"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div class="links">
+            <p>Já tem uma conta ?</p>
+            <button id="signInButton">LogIn</button>
+        </div>
+    </div>
+
+
+    <!--Abaixo é o login-->
+
+    <div class="container" id="signin">
+        <h1 class="form-title">Login</h1>
+        <form method="post" action="">
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+                <label for="email">Email</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" placeholder="password" required>
+                <label for="password">Senha</label>
+            </div>
+            <p class="recover">
+                <a href="#">Recupere a senha!</a>
+            </p>
+            <input type="submit" class="btn" value="Entrar" name="singIn">
+        </form>
+        <div class="icons">
+            <i class="fab fa-google"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div class="links">
+            <p>Não tem uma conta ainda ?</p>
+            <button id="signUpButton">Cadastrar</button>
+        </div>
+    </div>
+</body>
+
+</html>
